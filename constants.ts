@@ -7,8 +7,8 @@ export const tools = [
     label: 'Conversation',
     icon: MessageSquare,
     href: '/conversation',
-    color: "text-violet-500",
-    bgColor: "bg-violet-500/10",
+    color: "text-violet-600",
+    bgColor: "bg-violet-600/10",
   },
   {
     label: 'Music Generation',
@@ -34,8 +34,8 @@ export const tools = [
   {
     label: 'Code Generation',
     icon: Code,
-    color: "text-green-700",
-    bgColor: "bg-green-700/10",
+    color: "text-yellow-600",
+    bgColor: "bg-yellow-600/10",
     href: '/code',
   },
 ];

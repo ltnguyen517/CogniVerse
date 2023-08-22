@@ -22,7 +22,7 @@ const routes = [
     label: 'Conversation',
     icon: MessageSquare,
     href: '/conversation',
-    color: "text-violet-500",
+    color: "text-violet-600",
   },
   {
     label: 'Image Generation',
@@ -45,7 +45,7 @@ const routes = [
   {
     label: 'Code Generation',
     icon: Code,
-    color: "text-green-700",
+    color: "text-yellow-600",
     href: '/code',
   },
   {
@@ -72,7 +72,7 @@ export const Sidebar = ({
             <Image fill alt="Logo" src="/logo.png" />
           </div>
           <h1 className={cn("text-2xl font-bold", poppins.className)}>
-            Genius
+            CogniVerse
           </h1>
         </Link>
         <div className="space-y-1">
