@@ -125,7 +125,11 @@ const ConversationPage = () => {
               >
                 {message.role === "user" ? <UserAvatar /> : <BotAvatar />}
                 <p className="text-sm">
-                  {message.content}
+                  {message.content?.split('\n').map((line, index) => (
+                    <span key={index}>
+                      {line}<br />
+                    </span>
+                  ))}
                 </p>
               </div>
             ))}

@@ -4,28 +4,28 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Joel",
-    avatar: "J",
-    title: "Software Engineer",
-    description: "This is the best application I've ever used!",
+    name: "Sarah Thompson",
+    avatar: "S",
+    title: "Web Developer",
+    description: "As a web developer, I'm always seeking creative tools that can elevate my projects. This AI website blew me away with its code generation capabilities. It's like having a coding genius right at my fingertips. From complex algorithms to stylish CSS, this platform has transformed the way I work. My projects now stand out with innovative code, thanks to this incredible tool!",
   },
   {
-    name: "Antonio",
+    name: "Alex Vu",
     avatar: "A",
-    title: "Designer",
-    description: "I use this daily for generating new photos!",
+    title: "Photographer",
+    description: "Capturing moments through my lens is my passion, and this app added a new dimension to my photography. The image generation feature is mind-blowing! Whether I need nature landscapes or urban vibes, this tool delivers stunning visuals that resonate with my artistic vision. It's like having a virtual art gallery at my disposal!",
   },
   {
-    name: "Mark",
+    name: "Mark Vuong",
     avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
+    title: "Filmmaker",
+    description: "Creating compelling videos is my forte, and this AI website took my projects to a whole new level. The video generation feature is a game-changer! It crafts captivating scenes, special effects, and even unique storylines. With this tool, my imagination knows no bounds. This platform is my secret weapon for cinematic excellence!",
   },
   {
-    name: "Mary",
-    avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    name: "Ethan Williams",
+    avatar: "E",
+    title: "Music Producer",
+    description: "Music is my life, and this website turned my compositions into pure magic. The music generation feature is nothing short of extraordinary. It composes melodies, harmonies, and beats that resonate with emotions I didn't even know existed. From classical symphonies to futuristic electronica, this tool fuels my creativity like never before. It's my symphony of inspiration!",
   },
 ];
 
