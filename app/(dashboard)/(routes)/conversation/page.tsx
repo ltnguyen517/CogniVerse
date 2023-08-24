@@ -21,7 +21,7 @@ import { UserAvatar } from "@/components/user-avatar";
 import { Empty } from "@/components/ui/empty";
 import { useProModal } from "@/hooks/use-pro-modal";
 
-import { formSchema } from "./constants"; 
+import { formSchema } from "./constants";
 
 const ConversationPage = () => {
   const router = useRouter();
@@ -63,8 +63,8 @@ const ConversationPage = () => {
         title="Conversation"
         description="Our most advanced conversation model."
         icon={MessageSquare}
-        iconColor="text-violet-500"
-        bgColor="bg-violet-500/10"
+        iconColor="text-violet-600"
+        bgColor="bg-violet-600/10"
       />
       <div className="px-4 lg:px-8">
         <div>
@@ -125,7 +125,11 @@ const ConversationPage = () => {
               >
                 {message.role === "user" ? <UserAvatar /> : <BotAvatar />}
                 <p className="text-sm">
-                  {message.content}
+                  {message.content?.split('\n').map((line, index) => (
+                    <span key={index}>
+                      {line}<br />
+                    </span>
+                  ))}
                 </p>
               </div>
             ))}
