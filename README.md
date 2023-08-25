@@ -6,6 +6,18 @@ Discover the magic of CogniVerse! Craft code, images, music, video, and conversa
 
 *Please note the site may take a few minutes to start due to the platform it is deployed on.*
 
+Features:
+- Full responsiveness
+- Tailwind design, animations, and effects
+- Clerk Authentication
+- Client form validation and handling using React-Hook-Form
+- Server error handling using React-toast
+- Conversation & Image Generation Tool (Open AI)
+- Video & Music Generation Tool (Replicate AI)
+- Stripe monthly subscription
+- Free tier with API limiting
+- Folder structure in Next 13 App Router
+
 # 💻 Tech Stack
 
 ## Languages
@@ -44,8 +56,6 @@ Discover the magic of CogniVerse! Craft code, images, music, video, and conversa
 ##  👉[LinkedIn](https://www.linkedin.com/in/lenguyenmdmbs/)
 
 # 🔍 Get Started Today!
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
